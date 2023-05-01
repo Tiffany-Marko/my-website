@@ -12,6 +12,8 @@ h3 {
 #title {
     color:rgb(93, 60, 18);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    font-kerning: normal;
 }
 
 /* To Do:
@@ -24,4 +26,4 @@ An attribute OR pseudo-class OR a pseudo-element
 Use only relative units of measurement
 Specify colors with RGB values or hex codes DONE
 Set the color of at least one element
-Use at least 2 properties that style fonts */
+Use at least 2 properties that style fonts DONE*/
