@@ -1,12 +1,15 @@
 body {
-    color: purple;
-    background-color: beige;
+    color: #800080;
+    background-color: #f5f5dc;
 }
 p {
     color:rgb(15, 124, 88);
+    line-height: 1em;
+    
 }
 h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
 
 }
 #title {
@@ -14,22 +17,28 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:xx-large;
     font-kerning: normal;
+    
+    
 }
 main li {
     font-size: large;
 }
 ul a {
-    color:blue;
+    color:#0000ff;
+}
+
+img {
+    margin-right: 1em;
 }
 
 /* To Do:
 
 A type selector DONE
-An ID OR class selector DONE
+An ID OR class selector DONE (inside the first tag-i.e. <h2 id="")starts with #
 A relational selector
 A combination selector
 An attribute OR pseudo-class OR a pseudo-element
-Use only relative units of measurement
+Use only relative units of measurement DONE
 Specify colors with RGB values or hex codes DONE
 Set the color of at least one element
 Use at least 2 properties that style fonts DONE*/
