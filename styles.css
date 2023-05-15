@@ -89,27 +89,5 @@ ul.gradient2 {
     background-image: linear-gradient(45deg,rgba(255, 0, 0, 0.087) 0%, white 50%, blue 100%);
 
 }
-/* #history {
-    color:rgb(93, 60, 18);
-    HOW DO I MAKE THESE GO SOMEWHERE OR MAKE THEM A SECOND WEB PAGE
 
-} */
-
-
-
-/* notes:
-
-
-An ID OR class selector: (inside the first tag-i.e. <h2 id="")starts with #
-use rgb or hex
-
-
-/* Add padding and/or margins to 3 or more elements to create an aesthetically pleasing presentation
-Generally, this means that you use padding and/or margins to align or indent content, as necessary
-Add borders to at least one element
-Add a background image or gradient to at least one element ?????
-Make sure this doesn't inhibit the readability of your webpage
-At least one page of your website should use a 2- or 3-column layoutLinks to an external site. ?????
-This means you might want to add a 2nd page to your website!
-Have writer's block? Consider asking ChatGPT */
 
