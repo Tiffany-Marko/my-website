@@ -1,14 +1,23 @@
 body {
     color: rgb(95, 42, 8);
     background-color: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+main {
+    width: 80%;
+    min-width: 300px;
+}
+
 p {
-    color:rgb(95, 42, 8);
+    color: rgb(95, 42, 8);
     line-height: 1em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 4em;
     margin-top: 2em;
-    }
+}
 
 
 
@@ -19,51 +28,66 @@ p::first-letter {
     font-weight: bold;
     line-height: 1;
     margin-inline-end: 0rem;
-  }
+}
+
 h3 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
     border-style: solid;
     border-color: rgb(95, 42, 8);
 
 }
+
 #title {
-    color:rgb(93, 60, 18);
+    color: rgb(93, 60, 18);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:xx-large;
+    font-size: xx-large;
     font-kerning: normal;
     margin-top: auto;
-    
+
 }
+
 main li {
     font-size: large;
     border-radius: 10%;
     margin-inline: 5%;
+
 }
+
 ul a {
-    rgb(93, 60, 18);
+    color:rgb(93, 60, 18);
     /* border-top: 1em;
     border-bottom: 2em; */
 }
 
 img {
-    margin-right: 2em;
+    width: 25%;
+    /* % allows image to be scalable */
 }
 
-h1, h3 { font-weight: 900;}
+h1,
+h3 {
+    font-weight: 900;
+}
 
-div {
+.brownborder {
+    border: 5px solid rgb(93, 60, 18);
+
+}
+
+.section {
     width: 320px;
     padding: 10px;
-    border: 5px solid rgb(93, 60, 18);
-    margin: 0;
-  }
-
-nav {
-    width: 320px;
-    padding: 10px;
-    border: 5px solid rgb(93, 60, 18);
     margin-top: 1em;
+
+
+}
+
+#gallery {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 
 
 }
@@ -72,34 +96,36 @@ nav {
     width: 320px;
     padding: 10px;
     border: 5px solid rgb(93, 60, 18);
-    margin: 0;
+    margin: 10px 10px 0 0;
     float: left;
 }
 
 ul.extralinks {
     list-style-type: none;
     margin: 0;
-    padding-left: 0;    
+    padding-left: 0;
 
 }
+
 ul#gradient {
-    background-image: linear-gradient(45deg,rgba(255, 0, 0, 0.087) 0%, white 50%, blue 100%);
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.087) 0%, white 50%, blue 100%);
 }
+
 ul.gradient2 {
-    background-image: linear-gradient(45deg,rgba(255, 0, 0, 0.087) 0%, white 50%, blue 100%);
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.087) 0%, white 50%, blue 100%);
 
 }
+/* styles for small screens */
+@media screen and (max-width:600px) {
+    main {
+        width: 95%;
+    }
 
-/* Either a horizontal or vertical navigation menu
-At least 3 HTML pages that you can navigate between using the navigation menu
-Hint: this means there should be a navigation menu on each page!
-New pages can say "Under Construction" for now
-My expectation is that your navigation menu will be consistent across all pages of your website, since this is commonplace on websites today
-One link that opens a different website in a different browser tab or browser window (see pg. 228)
-One link that links to a placeholder on the same page (see pg. 230)
-A media query that fixes the layout issues posed by at least one breakpoint (see pg. 272-279)
-All pages should use fluid layouts (as opposed to a fixed layouts)
-Your website should include at least one scalable image (see pg. 256-271)
-Don't forget to put a few comments in both your HTML and CSS code that explain the purpose of the code
-Note: you don't have to keep anything in your website that were requirements from previous iterations of the "Create Your Own Website" assignment. 
-For example, you don't have to keep any CSS styles that you coded for the previous assignment. They are not part of your grade anymore, so you can make any changes to the CSS you need to for this iteration of your website. Feel free to change any aspects of your project to meet the requirements for this particular assignment. */
+    img {
+        width: 90%;
+    }
+
+    #gallery {
+        flex-direction: column;
+    }
+}
