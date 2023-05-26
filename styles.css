@@ -56,6 +56,14 @@ p::first-letter {
     line-height: 1;
     margin-inline-end: 0rem;
 }
+/* h1 {
+    @font-face {
+        font-family: yeet;
+        src: url(../images/ALGER.TTF);
+    }
+} */
+
+/* ^^^find path then connect? */
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -63,6 +71,10 @@ h3 {
     
     width: 320px;
     padding: 10px;
+    /* @font-face {
+        font-family: yeet;
+        src: url(../images/ALGER.TTF);
+    } */
 
 }
 
