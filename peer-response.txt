@@ -1,0 +1,5 @@
+Textboxes: The box "required gear" does not have a gradient background like the others, so it stands out. It could use a unique background of its own, or I believe you should somehow combine it to the list of items. 
+Solution: Moved h3 header down into "gear" box and created new h3 for "useful links."
+
+Main Image: At your media query at ~1075, give the image some top padding or margins (I'm not sure which one, you can try one or the other). This way it won't obscure the hyperlink. Could this image also look better if it had a border potentially?
+Solution: Added a Row Gap to the grid in that media query.
