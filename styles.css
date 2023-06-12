@@ -7,6 +7,8 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+/* main grid */
+
 main {
     width: 80%;
     min-width: 300px;
@@ -254,15 +256,19 @@ ul.gradient2 {
         flex-direction: column;
         align-items: center;
     }
+
     .row {
         flex-direction: column;
     }
+
     .row:nth-of-type(2) {
         flex-direction: column-reverse;
     }
+
     .row img {
         width: 100%;
-    } 
+
+    }
 }
 
 @media screen and (max-width:1075px) {
