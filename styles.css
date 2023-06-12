@@ -219,6 +219,7 @@ td {
 
 .row img {
     width: 50%;
+    object-fit: contain;
 }
 
 .row {
@@ -238,7 +239,7 @@ ul.gradient2 {
 
 } */
 /* styles for small screens */
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
 
     main,
     header {
